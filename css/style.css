@@ -1,0 +1,118 @@
+:root{
+
+}
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+}
+nav ul li{
+	list-style-type: none;		
+	padding-left: 15px;
+	font-size: 13px;	
+}
+nav ul li a{
+	text-decoration: none;
+}
+.logo{
+	margin-top: 16vh;
+}
+.container{
+	text-align: center;
+	margin: auto;
+	min-width: 980px;	
+	height: 233px;
+}
+
+.cuadros{
+	width: 24px;
+	height: 24px;
+}
+
+.imgRedonda {
+    width:32px;
+    height:32px;
+    border-radius:16px;
+}
+#busqueda{
+    line-height: 40px;
+    height: 40px !important;
+	width: 440px;
+	border-radius: 20px;
+	border:1px solid #ddd;
+	padding-left: 40px;
+}
+#busqueda:hover{
+	box-shadow:0 1px 6px 0 #20212447;
+	border-color:#dfe1e500;
+}
+.icoLupa{
+	background-image: url('../images/lupa.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 20px;height: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.mic{
+	background-image: url('../images/mic.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 20px;height: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 205px;
+}
+#formulario{
+	margin-top: 25px;
+}
+#spaceBotones{
+	margin-top: 28px;	
+}
+.botones{
+	background-color: #f4f4f4;
+	border:1px solid #ddd;
+	padding: 12px;
+	color:#999;
+	line-height: 10px;
+	height: 36px;
+	min-width: 27px;
+	border-radius: 5px;
+}
+.botones:hover{
+	color:#333;
+	border:1px solid #999;
+}
+
+footer{
+	justify-content: space-between;
+	display: flex;
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+  	width: 100%;
+}
+
+footer ul{
+	display: flex;	
+}
+footer ul li{
+	text-decoration: none;
+	list-style-type: none;		
+	padding-left: 0.5vw;
+	font-size: 10px;	
+}
