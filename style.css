@@ -1,3 +1,23 @@
-body{padding:0;margin:0;}
-.container{width: 70vw;margin-left: 15vw;}
-#nombre{margin-left: 0vw;color: #e3e3e5;position: absolute;font-family: 'Bungee', cursive;font-size: 3em;}
+:root {
+   --oneCol:8.333333334%; }
+body{padding:0;margin:0;font-family: Arial, Helvetica, sans-serif;}
+h3{color:#233353;}
+button{width: 80%;margin-left: 10%;background-color: #446ca5;color: #fff;text-transform: uppercase;padding: 5px;}
+#backImg{object-fit: cover;width: 100vw;height: 40vh;}
+#logo{height: 20vh;}
+#logogx{width: 30vh;height: auto;position: relative;left: 15vh;top: -5vh;}
+.row{display: flex;}
+.col-1{width:var(--oneCol);}
+.col-2{width:calc(var(--oneCol) * 2);padding: 0 10px 0 10px;}
+.col-3{width:calc(var(--oneCol) * 3);padding: 0 10px 0 10px;}
+.col-4{width:calc(var(--oneCol) * 4);padding: 0 10px 0 10px;}
+.col-5{width:calc(var(--oneCol) * 5);padding: 0 10px 0 10px;}
+.col-6{width:calc(var(--oneCol) * 6);padding: 0 10px 0 10px;}
+.col-7{width:calc(var(--oneCol) * 7);padding: 0 10px 0 10px;}
+.col-8{width:calc(var(--oneCol) * 8);padding: 0 10px 0 10px;}
+.col-9{width:calc(var(--oneCol) * 9);padding: 0 10px 0 10px;}
+.col-10{width:calc(var(--oneCol) * 10);padding: 0 10px 0 10px;}
+.col-11{width:calc(var(--oneCol) * 11);padding: 0 10px 0 10px;}
+.col-12{width:calc(var(--oneCol) * 12);padding: 0 10px 0 10px;}
+.container{width: 70%;margin: auto}
+.card{border: 1px solid #b7b7b7;padding:5px;}
